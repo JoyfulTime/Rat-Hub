@@ -1,10 +1,10 @@
--- FEATURES --
+--[[ FEATURES 
 
--- Auto Farm
--- Auto Chest Open
--- WalkSpeed, JumpPower
--- Anti AFK
--- Streamer Mode
+ Auto Farm
+ Auto Chest Open
+ WalkSpeed, JumpPower
+ Anti AFK
+ Streamer Mode ]]--
 
 
 local ObscuraLua = [[This script is safeguarded by ObscuraLua v1.0.5, an advanced Lua obfuscation technology devised by User319183. For further details, please refer to our official website: https://obscuralua.replit.app.]];
