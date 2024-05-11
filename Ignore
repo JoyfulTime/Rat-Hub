@@ -1,8 +1,8 @@
 local games = {
-	[1] = {10523498173, "TrollgeUniverseIncident"},
-	[2] = {15239971242, "TrollgeDeceptions"},
-	[3] = {9216815133, "TrollgeConventions"},
-	[4] = {14586070923, "AnotherTrollgeGame"},
+    [1] = {10523498173, "TrollgeUniverseIncident"},
+    [2] = {15239971242, "TrollgeDeceptions"},
+    [3] = {9216815133, "TrollgeConventions"},
+    [4] = {14586070923, "AnotherTrollgeGame"},
     [5] = {14935725206, "UntitledTrollgeGame"},
     [6] = {17204032983, "TrollgeInsanity"},
     [7] = {12471513793, "WorldOfTrollge"}
