@@ -7,7 +7,7 @@ else
     local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
     local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
-    local KeyCode = ("WeSOBack")
+    local KeyCode = ("TrollgeSmellyVerse")
 
     Fluent:Notify({
         Title = "Executed",
@@ -49,7 +49,8 @@ else
                 [4] = {14586070923, "AnotherTrollgeGame"},
                 [5] = {14935725206, "UntitledTrollgeGame"},
                 [6] = {17204032983, "TrollgeInsanity"},
-                [7] = {12471513793, "WorldOfTrollge"}
+                [7] = {12471513793, "WorldOfTrollge"},
+                [8] = {12471513793, "TrollgeMultiverse"}
             }
             
             for i,v in games do
