@@ -50,7 +50,7 @@ else
                 [5] = {14935725206, "UntitledTrollgeGame"},
                 [6] = {17204032983, "TrollgeInsanity"},
                 [7] = {12471513793, "WorldOfTrollge"},
-                [8] = {12471513793, "TrollgeMultiverse"}
+                [8] = {13946738101, "TrollgeMultiverse"}
             }
             
             for i,v in games do
