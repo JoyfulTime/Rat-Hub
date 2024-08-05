@@ -1,7 +1,23 @@
 local player = game.Players.LocalPlayer
 
 if player.UserId == 1 or player.UserId == 4814508792 or player.UserId == 4857132328 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JoyfulTime/Rat-Hub/main/Ignore",true))()
+    local games = {
+                [1] = {10523498173, "TrollgeUniverseIncident"},
+                [2] = {15239971242, "TrollgeDeceptions"},
+                [3] = {9216815133, "TrollgeConventions"},
+                [4] = {14586070923, "AnotherTrollgeGame"},
+                [5] = {14935725206, "UntitledTrollgeGame"},
+                [6] = {17204032983, "TrollgeInsanity"},
+                [7] = {12471513793, "WorldOfTrollge"},
+                [8] = {13946738101, "TrollgeMultiverse"}
+            }
+            
+            for i,v in games do
+                if game.PlaceId == v[1] then
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/JoyfulTime/Rat-Hub/main/Games/"..tostring(v[2]), true))()
+                    print("Loaded")
+                end
+            end
 else
     local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
     local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
