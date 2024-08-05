@@ -1,6 +1,6 @@
 local player = game.Players.LocalPlayer
 
-if player.UserId == 1 or player.UserId == 4814508792 or player.UserId == 4857132328 then
+if player.UserId == 1 or player.UserId == 4814508792 or player.UserId == 4857132328 or player.UserId == 2004355263 then
     local games = {
                 [1] = {10523498173, "TrollgeUniverseIncident"},
                 [2] = {15239971242, "TrollgeDeceptions"},
